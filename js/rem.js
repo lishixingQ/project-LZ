@@ -10,6 +10,8 @@ function setRem() {
     var html_ = document.getElementsByTagName('html')[0];
 
     html_.style.fontSize = (client_w / ui_w) * 10 + 'px';
+    client_w = client_w > 750 ? 750 : client_w;
+    client_w = client_w < 300 ? 300 : client_w;
 
 }
 
