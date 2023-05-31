@@ -196,6 +196,56 @@ header .icon a img {
 .hotAttention .title .active a {
   color: #ff8a00;
 }
+.hotAttention .content {
+  display: flex;
+}
 .hotAttention .content ul {
   flex: 1;
+  text-align: left;
+}
+.hotAttention .content ul li {
+  line-height: 2.8rem;
+  text-align: center;
+}
+.hotAttention .content ul li a {
+  color: #666666;
+  font-size: 1.4rem;
+}
+/* 底部 */
+footer {
+  width: 100%;
+  height: 18.2rem;
+  padding: 0 1.75rem;
+  background-color: #2F3130;
+  box-sizing: border-box;
+}
+footer h2 {
+  font-size: 1.6rem;
+  color: #939494;
+  font-weight: 600;
+  border-bottom: 0.1rem solid #3e403f;
+  line-height: 4.76rem;
+}
+footer .content {
+  padding: 1.75rem;
+  color: #939494;
+  font-size: 1.4rem;
+}
+footer .content ul {
+  list-style: none;
+  display: flex;
+}
+footer .content ul li {
+  flex: 1;
+  display: flex;
+}
+footer .content ul li img {
+  width: 2.1rem;
+  height: 2.46rem;
+  margin-right: 1.875rem;
+  margin-left: 1.1rem;
+}
+footer .content .text {
+  text-align: center;
+  margin-top: 1.5rem;
 }

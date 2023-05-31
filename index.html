@@ -139,7 +139,49 @@
                     <li><a href="#">满五年唯一免税</a></li>
                 </ul>
             </div>
+            <!-- 友情链接部分 -->
+            <div class="content" style="display: none;">
+                <ul>
+                    <li><a href="#">北京</a></li>
+                    <li><a href="#">上海二手房价</a></li>
+                    <li><a href="#">海淀日租房</a></li>
+                    <li><a href="#">朝阳新房</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">北京找房无忧</a></li>
+                    <li><a href="#">青年家园</a></li>
+                    <li><a href="#">青年旅舍</a></li>
+                    <li><a href="#">满五年唯一免税</a></li>
+                </ul>
+            </div>
         </div>
+        <!-- 底部 -->
+        <footer>
+            <h2>北京找房无忧 > 首页</h2>
+            <div class="content">
+                <ul>
+                    <li>
+                        <img src="./image/index/apple.png" alt="">
+                        <div>
+                            <p>iPhone</p>
+                            <p>客户端</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./image/index/android.png" alt="">
+                        <div>
+                            <p>Android</p>
+                            <p>客户端</p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="text">
+                    <p>北京找房无忧房地产经纪公司</p>
+                    <p>网络经营许可证京ICP备20160812号</p>
+                </div>
+
+            </div>
+        </footer>
     </div>
 </body>
 
@@ -148,11 +190,11 @@
     (function () {
     var item_ = document.getElementsByClassName('item');
         console.log(item_);
-    var title = document.getElementsByClassName('title');
-    console.log(title);
+    var content = document.getElementsByClassName('content');
 
     for (let i = 0; i < item_.length; i++) {
         item_[i].setAttribute('index', i);
+        // content[i].setAttribute('index',i)
         item_[i].onclick = function () {
             var index = this.getAttribute('index');
 
@@ -160,6 +202,10 @@
                 item_[j].classList.remove('active');
                 item_[index].classList.add('active');
 
+            }
+            for(let k=0;k<content.length;k++){
+                content[k].style.display = 'none';
+                content[index].style.display = 'block';
             }
 
         }
