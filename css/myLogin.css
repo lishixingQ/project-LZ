@@ -2,3 +2,98 @@
   padding: 0;
   margin: 0;
 }
+/* 头部header */
+header {
+  width: 100%;
+  height: 5rem;
+  min-width: 300px;
+  background-color: #FF8A00;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header a {
+  display: inline-block;
+}
+header a img {
+  width: 11.7rem;
+  height: 4rem;
+}
+header .icon a {
+  color: #666666;
+}
+header .icon a img {
+  width: 2.7rem;
+  height: 3.4rem;
+  margin-left: 1rem;
+}
+/* 主体部分 */
+.main .title {
+  height: 4rem;
+  line-height: 4rem;
+  background: #ffffff;
+  border-bottom: 0.1rem solid #c5c5c5;
+  padding-left: 2rem;
+}
+.main .title p {
+  font-size: 1.4rem;
+}
+.main .useLogin {
+  width: 100%;
+  height: 14rem;
+  background: url(../image/my/bg2.png) 0 0 no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+.main .useLogin img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 5.4rem;
+  height: 5.4rem;
+  transform: translate(-50%, -50%);
+}
+.main .useLogin p {
+  position: absolute;
+  bottom: 1rem;
+  left: 12rem;
+  font-size: 1.6rem;
+  text-align: center;
+  color: #ffffff;
+}
+.main .myLoginList {
+  margin-top: 1.2rem;
+  background: #ffffff;
+  padding: 0 2rem;
+  list-style: none;
+}
+.main .myLoginList li {
+  height: 4.8rem;
+  line-height: 4.8rem;
+  border-bottom: 0.1rem solid #dcdcdc;
+  background: url(../image/my/right.png) right center no-repeat;
+  background-size: 0.7rem 1.4rem;
+}
+.main .myLoginList li img {
+  width: 1.9rem;
+  height: 1.9rem;
+}
+.main .myLoginList li a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #666666;
+  font-size: 1.4rem;
+}
+.main button {
+  display: inline-block;
+  width: 90%;
+  height: 4rem;
+  background: #ffffff;
+  color: #ff8a00;
+  border: 0.1rem solid #dcdcdc;
+  text-align: center;
+  line-height: 4rem;
+  margin: 2rem 2rem;
+  padding: 0 2rem;
+  box-sizing: border-box;
+}

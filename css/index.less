@@ -194,24 +194,28 @@ header {
                     white-space: nowrap;
                     text-overflow: ellipsis;
                 }
-                p{
+
+                p {
                     font-size: 1.4rem;
                     padding: 0.5rem 0;
                     color: #000;
                     overflow: hidden;
-                    strong{
+
+                    strong {
                         color: #ff8a00;
                         float: right;
                     }
                 }
-                &>p:nth-of-type(2){
-                    strong{
+
+                &>p:nth-of-type(2) {
+                    strong {
                         color: #999999;
                         float: right;
                     }
                 }
-                &>p:nth-of-type(3){
-                    a{
+
+                &>p:nth-of-type(3) {
+                    a {
                         color: #849aae;
                         background: #f4f7f9;
                         padding: .2rem .4rem;
@@ -219,53 +223,63 @@ header {
                 }
             }
         }
-        &>li:nth-of-type(3){
+
+        &>li:nth-of-type(3) {
             border-bottom: none;
         }
     }
 }
 
 /* 热门关注 友情链接 */
-.hotAttention{
+.hotAttention {
     background: #ffffff;
     border-top: .1rem solid #e5e5e5;
-    .title{
+
+    .title {
         font-size: 2rem;
         border-bottom: .1rem solid #ff8a00;
         display: flex;
         height: 6.4rem;
         line-height: 6.4rem;
-        li{
+
+        li {
             flex: 1;
             text-align: center;
-            a{
+
+            a {
                 font-size: 2rem;
                 font-weight: 500;
             }
         }
-        .active{
+
+        .active {
             border-bottom: .1rem solid #ff8a00;
-            a{
+
+            a {
                 color: #ff8a00;
             }
         }
     }
-    .content{
+
+    .content {
         display: flex;
-        ul{
+
+        ul {
             flex: 1;
             text-align: left;
-            li{
+
+            li {
                 line-height: 2.8rem;
                 text-align: center;
-                a{
+
+                a {
                     color: #666666;
                     font-size: 1.4rem;
                 }
             }
         }
     }
-    
+
 }
 
 
@@ -312,6 +326,50 @@ footer {
         .text {
             text-align: center;
             margin-top: 1.5rem;
+        }
+    }
+}
+
+/* 广告 */
+.ad {
+    width: 100%;
+    height: 5rem;
+    background: rgba(0, 0, 0, 0.5);
+    line-height: 5rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    padding-left: 2rem;
+
+    .close {
+        width: 2rem;
+        height: 2rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .left{
+        display: flex;
+        justify-content: space-around;
+        flex: 6;
+        font-size: 1.2rem;
+        color: #fff;
+        .text{
+            &>p:nth-of-type(1){
+                height: 1.8rem;
+                font-size: 1.8rem;
+            }
+        }
+    }
+    .right{
+        background: #ff8a00;
+        flex: 4;
+        line-height:5rem;
+        font-size: 1.6rem;
+        text-align: center;
+        a{
+            color: white;
         }
     }
 }

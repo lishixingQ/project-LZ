@@ -249,3 +249,43 @@ footer .content .text {
   text-align: center;
   margin-top: 1.5rem;
 }
+/* 广告 */
+.ad {
+  width: 100%;
+  height: 5rem;
+  background: rgba(0, 0, 0, 0.5);
+  line-height: 5rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  padding-left: 2rem;
+}
+.ad .close {
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.ad .left {
+  display: flex;
+  justify-content: space-around;
+  flex: 6;
+  font-size: 1.2rem;
+  color: #fff;
+}
+.ad .left .text > p:nth-of-type(1) {
+  height: 1.8rem;
+  font-size: 1.8rem;
+}
+.ad .right {
+  background: #ff8a00;
+  flex: 4;
+  line-height: 5rem;
+  font-size: 1.6rem;
+  text-align: center;
+}
+.ad .right a {
+  color: white;
+}

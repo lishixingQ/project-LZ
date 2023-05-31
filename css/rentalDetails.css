@@ -2,3 +2,352 @@
   padding: 0;
   margin: 0;
 }
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/* 头部header */
+header {
+  width: 100%;
+  height: 5rem;
+  min-width: 300px;
+  background-color: #FF8A00;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header a {
+  display: inline-block;
+}
+header a img {
+  width: 11.7rem;
+  height: 4rem;
+}
+header .icon a {
+  color: #666666;
+}
+header .icon a img {
+  width: 2.7rem;
+  height: 3.4rem;
+  margin-left: 1rem;
+}
+/* 主体部分 */
+div.main {
+  /* banner */
+  /* 第二部分top2 */
+  /* 第三部分 */
+  /* 第四部分 */
+  /* 第五部分 */
+  /* 第六部分 */
+  /* 第七部分 */
+  /* 第八部分 */
+  /* 第九部分 */
+}
+div.main .title {
+  height: 4rem;
+  line-height: 4rem;
+  background: #ffffff;
+  border-bottom: 0.1rem solid #c5c5c5;
+  padding-left: 2rem;
+}
+div.main .title p {
+  font-size: 1.4rem;
+}
+div.main .banner {
+  position: relative;
+}
+div.main .banner img {
+  width: 100%;
+}
+div.main .banner .share {
+  position: absolute;
+  bottom: 1rem;
+  right: 0;
+  font-size: 1.4rem;
+  background: rgba(0, 0, 0, 0.6);
+  width: 6rem;
+  height: 4rem;
+  color: #ffffff;
+  text-align: center;
+  line-height: 4rem;
+  border-radius: 1rem 0 0 1rem;
+}
+div.main .top2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+div.main .top2 h2 {
+  width: 72%;
+  line-height: 4rem;
+  margin-left: 0.2rem;
+  padding-top: 0.2rem;
+  font-size: 2rem;
+  border-right: 0.1rem solid gray;
+}
+div.main .top2 a {
+  width: 20%;
+  height: 4rem;
+  display: inline-block;
+  background: url(../image/rentalList/xin.png) no-repeat 0px 0px;
+  background-size: 40%;
+  margin-left: 1rem;
+  position: relative;
+}
+div.main .top2 a span {
+  display: inline-block;
+  position: absolute;
+  bottom: -1.7rem;
+  left: 0.3rem;
+  color: gray;
+  font-size: 1.4rem;
+}
+div.main .houseMes1 {
+  display: flex;
+  padding: 3rem 0;
+  border-top: 0.1rem solid #dcdcdc;
+  border-bottom: 0.1rem solid #dcdcdc;
+  background-color: #F5F5F5;
+}
+div.main .houseMes1 ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+div.main .houseMes1 ul li {
+  flex: 1;
+  text-align: center;
+  border-right: 0.1rem solid gray;
+}
+div.main .houseMes1 ul li > p:nth-of-type(1) {
+  font-size: 1.4rem;
+  color: #333;
+}
+div.main .houseMes1 ul li > p:nth-of-type(2) {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  color: orange;
+}
+div.main .houseMes1 ul > li:nth-of-type(3) {
+  border-right: none;
+}
+div.main .houseMes2 {
+  padding: 0 2rem;
+}
+div.main .houseMes2 ul li {
+  height: 5rem;
+  line-height: 5rem;
+  border-bottom: 0.1rem solid #e5e5e5;
+  display: flex;
+  font-size: 1.4rem;
+}
+div.main .houseMes2 ul li .left {
+  flex: 1;
+}
+div.main .houseMes2 ul li .right {
+  flex: 1;
+}
+div.main .rentalpart2 {
+  width: 100%;
+  margin: 0.9rem;
+  background: #fff;
+  border: 0.1rem solid #dcdcdc;
+}
+div.main .rentalpart2 h2 {
+  height: 4.4rem;
+  line-height: 4.4rem;
+  color: #ff8a00;
+  font-size: 2rem;
+  background: url(../image/rentalList/right.png) no-repeat 32.7rem 1.3rem;
+  background-size: 2rem 2rem;
+  padding: 0 2rem;
+  border-bottom: 0.1rem solid #dcdcdc;
+}
+div.main .rentalpart2 p {
+  padding: 1rem;
+  line-height: 2rem;
+  font-size: 1.4rem;
+  color: #333;
+}
+div.main .rentalpart3 {
+  width: 100%;
+  margin: 0.9rem;
+  background: #fff;
+  border: 0.1rem solid #dcdcdc;
+}
+div.main .rentalpart3 h2 {
+  height: 4.4rem;
+  line-height: 4.4rem;
+  color: #ff8a00;
+  font-size: 2rem;
+  background: url(../image/rentalList/right.png) no-repeat 32.7rem 1.3rem;
+  background-size: 2rem 2rem;
+  padding: 0 2rem;
+  border-bottom: 0.1rem solid #dcdcdc;
+}
+div.main .rentalpart3 p {
+  padding: 1rem;
+  line-height: 2rem;
+  font-size: 1.4rem;
+  color: #333;
+}
+div.main .rentalpart4 {
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+  background: #fff;
+  border: 0.1rem solid #dcdcdc;
+}
+div.main .rentalpart4 h2 {
+  height: 4.4rem;
+  line-height: 4.4rem;
+  color: #ff8a00;
+  font-size: 2rem;
+  background: url(../image/rentalList/right.png) no-repeat 32.7rem 1.3rem;
+  background-size: 2rem 2rem;
+  padding: 0 1rem;
+  border-bottom: 0.1rem solid #dcdcdc;
+}
+div.main .rentalpart4 .content {
+  width: 100%;
+  border: 0.1rem solid #dcdcdc;
+  margin: 1rem auto;
+}
+div.main .rentalpart4 .content h3 {
+  height: 3rem;
+  line-height: 3rem;
+  padding-left: 3rem;
+  font-size: 1.4rem;
+}
+div.main .rentalpart4 .content img {
+  width: 100%;
+}
+div.main .rentalpart5 {
+  width: 100%;
+  margin: 0.9rem;
+  background: #fff;
+  border: 0.1rem solid #dcdcdc;
+}
+div.main .rentalpart5 h2 {
+  height: 4.4rem;
+  line-height: 4.4rem;
+  color: #ff8a00;
+  font-size: 2rem;
+  background: url(../image/rentalList/right.png) no-repeat 32.7rem 1.3rem;
+  background-size: 2rem 2rem;
+  padding: 0 2rem;
+  border-bottom: 0.1rem solid #dcdcdc;
+}
+div.main .rentalpart5 p {
+  line-height: 2rem;
+  height: 2rem;
+  font-size: 1.4rem;
+  color: #333;
+}
+div.main .rentalpart5 p span {
+  color: orange;
+}
+div.main .rentalpart6 {
+  width: 100%;
+  margin: 0.9rem;
+  background: #fff;
+  border: 0.1rem solid #dcdcdc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+div.main .rentalpart6 .main {
+  flex: 3;
+  display: flex;
+  justify-content: space-evenly;
+}
+div.main .rentalpart6 .main img {
+  width: 5rem;
+  height: 5rem;
+  flex: 1;
+}
+div.main .rentalpart6 .main div {
+  flex: 3;
+  margin-left: 1rem;
+  flex-direction: column;
+  justify-content: center;
+}
+div.main .rentalpart6 .main div p {
+  margin-top: 0.5rem;
+}
+div.main .rentalpart6 .phone {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.main .rentalpart6 .phone a {
+  width: 6rem;
+  height: 7rem;
+  display: inline-block;
+}
+div.main .rentalpart6 .phone > a:nth-of-type(1) {
+  background: url(../image/rentalList/icon1.png) no-repeat 0px 0.9rem;
+  background-size: 3rem 3rem;
+  position: relative;
+}
+div.main .rentalpart6 .phone > a:nth-of-type(1) span {
+  color: #5dcb96;
+  position: absolute;
+  bottom: 1rem;
+  left: 0;
+}
+div.main .rentalpart6 .phone > a:nth-of-type(2) {
+  background: url(../image/rentalList/icon2.png) no-repeat 0px 0.9rem;
+  background-size: 3rem 3rem;
+  position: relative;
+}
+div.main .rentalpart6 .phone > a:nth-of-type(2) span {
+  color: #5dcb96;
+  position: absolute;
+  bottom: 1rem;
+  left: 0;
+}
+/* 底部 */
+footer {
+  width: 100%;
+  height: 18.2rem;
+  padding: 0 1.75rem;
+  background-color: #2F3130;
+  box-sizing: border-box;
+}
+footer h2 {
+  font-size: 1.6rem;
+  color: #939494;
+  font-weight: 600;
+  border-bottom: 0.1rem solid #3e403f;
+  line-height: 4.76rem;
+}
+footer .content {
+  padding: 1.75rem;
+  color: #939494;
+  font-size: 1.4rem;
+}
+footer .content ul {
+  list-style: none;
+  display: flex;
+}
+footer .content ul li {
+  flex: 1;
+  display: flex;
+}
+footer .content ul li img {
+  width: 2.1rem;
+  height: 2.46rem;
+  margin-right: 1.875rem;
+  margin-left: 1.1rem;
+}
+footer .content .text {
+  text-align: center;
+  margin-top: 1.5rem;
+}

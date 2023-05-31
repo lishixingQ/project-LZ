@@ -2,3 +2,81 @@
   padding: 0;
   margin: 0;
 }
+/* 头部 */
+.header {
+  width: 100%;
+  position: relative;
+  /* logo */
+}
+.header img {
+  width: 100%;
+}
+.header .downList {
+  width: 10.6rem;
+  height: 4.3rem;
+  text-align: center;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+.header .downList a {
+  color: #ffffff;
+  margin-left: 1.7rem;
+  height: 3.2rem;
+  display: inline-block;
+  padding-top: 2.8rem;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+.header .downList > a:nth-of-type(1) {
+  background: url(../image/my/urse.png) no-repeat;
+  background-size: 70%;
+}
+.header .downList > a:nth-of-type(2) {
+  background: url(../image/my/down.png) no-repeat;
+  background-size: 70%;
+}
+.header .logo {
+  width: 6.3rem;
+  height: 6.3rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.header .login {
+  position: absolute;
+  left: 15.3rem;
+  bottom: 2.9rem;
+  color: #ffffff;
+  font-size: 1.6rem;
+  text-decoration: none;
+  border: 0.1rem solid #ffffff;
+  padding: 0.6rem 2rem;
+}
+/* 主体部分 */
+.main .userList {
+  margin-top: 1.2rem;
+  background: #ffffff;
+  padding: 0 2rem;
+  list-style: none;
+}
+.main .userList li {
+  height: 4.8rem;
+  line-height: 4.8rem;
+  border-bottom: 0.1rem solid #dcdcdc;
+  background: url(../image/my/right.png) right center no-repeat;
+  background-size: 0.7rem 1.4rem;
+}
+.main .userList li img {
+  width: 1.9rem;
+  height: 1.9rem;
+}
+.main .userList li a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #666666;
+  font-size: 1.4rem;
+}

@@ -182,6 +182,23 @@
 
             </div>
         </footer>
+
+        <!-- 广告 -->
+        <div id="ad" class="ad">
+            <img id="close" class="close" src="./image/index/close.png" alt="">
+            <div class="left">
+                <div class="icon">
+                    <img src="./image/index/download.png" alt="">
+                </div>
+                <div class="text">
+                    <p>找房无忧</p>
+                    <p>市场行情，一手掌握！</p>
+                </div>
+            </div>
+            <div class="right">
+                <a href="#">免费下载</a>
+            </div>
+        </div>
     </div>
 </body>
 
@@ -211,4 +228,12 @@
     }
 
 })();
+
+(function(){
+    var close = document.getElementById('close');
+    var ad = document.getElementById('ad');
+    close.onclick = function(){
+        ad.style.display = 'none';
+    }
+})()
 </script>
