@@ -2,3 +2,180 @@
   padding: 0;
   margin: 0;
 }
+ul {
+  list-style: none;
+}
+/* 头部header */
+header {
+  width: 100%;
+  height: 5rem;
+  min-width: 300px;
+  background-color: #FF8A00;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header a {
+  display: inline-block;
+}
+header a img {
+  width: 11.7rem;
+  height: 4rem;
+}
+header .icon a {
+  color: #666666;
+}
+header .icon a img {
+  width: 2.7rem;
+  height: 3.4rem;
+  margin-left: 1rem;
+}
+nav {
+  width: 100%;
+  height: 4rem;
+  font-size: 1.4rem;
+  background-color: #FFFFFF;
+  line-height: 4rem;
+  padding-left: 2rem;
+}
+nav span {
+  font-weight: 800;
+}
+section {
+  width: 100%;
+  height: 7rem;
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+  position: relative;
+}
+section input {
+  width: 100%;
+  height: 4.5rem;
+  border: 1px solid #cccccc;
+  outline: none;
+}
+section span {
+  width: 0.2rem;
+  height: 2rem;
+  background-color: #666;
+  position: absolute;
+  top: 2.3rem;
+  left: 30rem;
+}
+section a {
+  position: absolute;
+  top: 1.4rem;
+  left: 31rem;
+}
+section a img {
+  width: 3rem;
+}
+.list {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  background-color: #FFFFFF;
+}
+.list li {
+  width: 25%;
+  text-align: center;
+  height: 5rem;
+  line-height: 5rem;
+  color: #666;
+  font-weight: 800;
+  font-size: 2rem;
+  position: relative;
+}
+.list li span {
+  width: 0rem;
+  height: 0rem;
+  border-top: 0.5rem solid #ccc;
+  border-left: 0.5rem solid transparent;
+  border-right: 0.5rem solid transparent;
+  position: absolute;
+  right: 1.1rem;
+  top: 2rem;
+}
+/* 房型详情列表 */
+.details {
+  width: 100%;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+.details li {
+  height: 16rem;
+  padding: 2rem 0;
+  box-sizing: border-box;
+  display: flex;
+  border-bottom: 1px solid #ff8a00;
+}
+.details li:nth-last-child(1) {
+  border-bottom: none;
+}
+.details li .left {
+  width: 10rem;
+}
+.details li .left img {
+  width: 9.5rem;
+  height: 9.5rem;
+  margin-top: 1rem;
+}
+.details li .right {
+  flex: 1;
+  margin-left: 0.7rem;
+  font-size: 1.4rem;
+  line-height: 3rem;
+}
+.details li .right h3 {
+  font-size: 1.8rem;
+}
+.details li .right .heating {
+  display: flex;
+  justify-content: space-between;
+}
+.details li .right .heating span {
+  padding: 0 0.4rem;
+  border: 1px solid #6da719;
+  color: #6da719;
+}
+.details li .right .heating b {
+  color: #ff8a00;
+}
+/* 底部 */
+footer {
+  width: 100%;
+  height: 18.2rem;
+  padding: 0 1.75rem;
+  background-color: #2F3130;
+  box-sizing: border-box;
+}
+footer h2 {
+  font-size: 1.6rem;
+  color: #939494;
+  font-weight: 600;
+  border-bottom: 0.1rem solid #3e403f;
+  line-height: 4.76rem;
+}
+footer .content {
+  padding: 1.75rem;
+  color: #939494;
+  font-size: 1.4rem;
+}
+footer .content ul {
+  list-style: none;
+  display: flex;
+}
+footer .content ul li {
+  flex: 1;
+  display: flex;
+}
+footer .content ul li img {
+  width: 2.1rem;
+  height: 2.46rem;
+  margin-right: 1.875rem;
+  margin-left: 1.1rem;
+}
+footer .content .text {
+  text-align: center;
+  margin-top: 1.5rem;
+}
