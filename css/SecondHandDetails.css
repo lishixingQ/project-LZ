@@ -2,3 +2,402 @@
   padding: 0;
   margin: 0;
 }
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #F5F5F5;
+}
+.box {
+  /* 头部header */
+  /* 主体 */
+  /* 底部 */
+  /* 联系经纪人 */
+}
+.box header {
+  width: 100%;
+  height: 5rem;
+  min-width: 300px;
+  background-color: #FF8A00;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.box header a {
+  display: inline-block;
+}
+.box header a img {
+  width: 11.7rem;
+  height: 4rem;
+}
+.box header .icon a {
+  color: #666666;
+}
+.box header .icon a img {
+  width: 2.7rem;
+  height: 3.4rem;
+  margin-left: 1rem;
+}
+.box main {
+  width: 100%;
+  /* 轮播图 */
+  /* mainText */
+  /* 房源信息 */
+  /* 房源特色 */
+  /* 户型房间 */
+  /* 对口学校 */
+  /* 位置及周边 */
+  /* 推荐房源 */
+}
+.box main .swiper {
+  width: 100%;
+}
+.box main .swiper .swiper-slide img {
+  width: 100%;
+  height: 21.6rem;
+}
+.box main .swiper .swiper-pagination {
+  width: 5rem;
+  padding: 0.5rem 0;
+  border-radius: 1.5rem;
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+  left: 85%;
+}
+.box main .mainText {
+  width: 100%;
+  background-color: white;
+  padding: 23px;
+  box-sizing: border-box;
+}
+.box main .mainText h2 {
+  font-size: 2.1rem;
+}
+.box main .mainText p:nth-of-type(1) {
+  font-size: 1.6rem;
+  background: url(../image/SecondHandList/phone.png) no-repeat right center;
+  background-size: 1.3rem;
+  margin: 1.1rem 0;
+}
+.box main .mainText p:nth-of-type(1) span {
+  font-weight: 600;
+  color: #db4c3f;
+}
+.box main .mainText p:nth-of-type(2) {
+  color: #b0b0b0;
+  font-size: 1.4rem;
+}
+.box main .mainText p:nth-of-type(3) {
+  margin-top: 1.75rem;
+}
+.box main .mainText p:nth-of-type(3) span {
+  font-size: 1.4rem;
+  color: #849aae;
+  background-color: #dee9f0;
+  padding: 0.6rem;
+  margin-right: 1.4rem;
+}
+.box main .homeInformation {
+  width: 100%;
+  margin-top: 1.4rem;
+  background-color: white;
+  list-style: none;
+  padding: 0 2rem;
+  box-sizing: border-box;
+}
+.box main .homeInformation li {
+  width: 100%;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  border-bottom: 0.1rem solid #e5e5e5;
+  font-size: 1.4rem;
+}
+.box main .homeInformation li div {
+  flex: 1;
+}
+.box main .homeInformation li:last-of-type {
+  border-bottom: none;
+}
+.box main .homeInformation li:last-of-type p {
+  width: 100%;
+  text-align: center;
+  color: #999;
+}
+.box main .homeFeature {
+  width: 100%;
+  background-color: white;
+  margin-top: 1.5rem;
+  padding: 0 2rem;
+  box-sizing: border-box;
+}
+.box main .homeFeature h2 {
+  font-size: 1.875rem;
+  color: #ff9326;
+  line-height: 6rem;
+  border-bottom: 0.1rem solid #e5e5e5;
+}
+.box main .homeFeature p:nth-of-type(1) {
+  padding: 1.6rem 0;
+  font-size: 1.4rem;
+  line-height: 3rem;
+  border-bottom: 0.1rem solid #e5e5e5;
+}
+.box main .homeFeature p:nth-of-type(2) {
+  color: #999;
+  font-size: 1.4rem;
+  text-align: center;
+  line-height: 5.8rem;
+}
+.box main .homeType {
+  width: 100%;
+  background-color: white;
+  margin-top: 1.5rem;
+  padding: 0 2rem;
+  box-sizing: border-box;
+}
+.box main .homeType .title {
+  font-size: 2.1rem;
+  color: #ff9326;
+  line-height: 6rem;
+  border-bottom: 0.1rem solid #e5e5e5;
+}
+.box main .homeType .item {
+  display: flex;
+  padding: 2.3rem 0;
+  border-bottom: 0.1rem solid #ff9326;
+}
+.box main .homeType .item:nth-of-type(2) {
+  border-bottom: none;
+}
+.box main .homeType .item img {
+  width: 8.3rem;
+  margin-right: 2rem;
+}
+.box main .homeType .item .text h2 {
+  font-size: 1.6rem;
+}
+.box main .homeType .item .text p:nth-of-type(1) {
+  font-size: 1.4rem;
+  margin: 1.5rem 0;
+}
+.box main .homeType .item .text p:nth-of-type(2) span {
+  font-size: 1.4rem;
+  color: #849aae;
+  background-color: #dee9f0;
+  padding: 0.6rem;
+  margin-right: 1.4rem;
+}
+.box main .school {
+  width: 100%;
+  background-color: white;
+  margin-top: 1.5rem;
+  box-sizing: border-box;
+  padding: 0 2rem;
+}
+.box main .school h2 {
+  font-size: 2.1rem;
+  line-height: 5.85rem;
+  border-bottom: 0.1rem solid #e5e5e5;
+}
+.box main .school ul {
+  list-style: none;
+}
+.box main .school ul li {
+  width: 100%;
+  height: 5.9rem;
+  border-bottom: 0.1rem solid #e5e5e5;
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+}
+.box main .school ul li span {
+  color: #999;
+}
+.box main .school ul li:last-of-type a {
+  width: 100%;
+  text-decoration: none;
+  color: #999;
+  text-align: center;
+}
+.box main .location {
+  width: 100%;
+  background-color: white;
+  box-sizing: border-box;
+  margin-top: 1.5rem;
+  padding: 0 2rem;
+}
+.box main .location h2 {
+  font-size: 2.1rem;
+  line-height: 5.85rem;
+  border-bottom: 0.1rem solid #e5e5e5;
+}
+.box main .location img {
+  width: 100%;
+  margin: 2.3rem 0;
+}
+.box main .recommendHome {
+  width: 100%;
+  background-color: white;
+  margin-top: 1.5rem;
+  box-sizing: border-box;
+}
+.box main .recommendHome .title {
+  font-size: 2.1rem;
+  line-height: 5.85rem;
+  border-bottom: 0.1rem solid #e5e5e5;
+  padding-left: 2.3rem;
+}
+.box main .recommendHome .item1 {
+  padding-bottom: 2rem;
+}
+.box main .recommendHome .item1:nth-of-type(1) .content {
+  border-top: none;
+}
+.box main .recommendHome .item1 .content {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 2rem;
+  padding-top: 2.3rem;
+  border-top: 0.1rem solid #e5e5e5;
+}
+.box main .recommendHome .item1 .content img {
+  width: 9.5rem;
+  height: 9.5rem;
+}
+.box main .recommendHome .item1 .content .text h2 {
+  width: 22rem;
+  font-size: 2.1rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.box main .recommendHome .item1 .content .text p:nth-of-type(1) {
+  padding: 0.58rem 0;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box main .recommendHome .item1 .content .text p:nth-of-type(1) span {
+  color: #FF8A00;
+  font-weight: 600;
+}
+.box main .recommendHome .item1 .content .text p:nth-of-type(2) {
+  padding: 0.58rem 0;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #8b8b8b;
+}
+.box main .recommendHome .item1 .content .text p:nth-of-type(3) a {
+  text-decoration: none;
+  padding: 0.24rem 0.4rem;
+  background-color: #F4F7F9;
+  color: #849aae;
+  font-size: 1.4rem;
+}
+.box main .recommendHome .item1 .tips {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  background-color: #F2F2F2;
+  padding: 1.5rem;
+  font-size: 1.4rem;
+  position: relative;
+}
+.box main .recommendHome .item1 .tips span {
+  display: inline-block;
+  border-left: 1.2rem solid transparent;
+  border-right: 1.2rem solid transparent;
+  border-bottom: 1.2rem solid #F2F2F2;
+  position: absolute;
+  top: -1.1rem;
+  left: 1.5rem;
+}
+.box main .recommendHome .more {
+  width: 100%;
+  text-align: center;
+  border-top: 0.1rem solid #e5e5e5;
+}
+.box main .recommendHome .more a {
+  width: 100%;
+  line-height: 5.9rem;
+  color: #666;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+.box footer {
+  width: 100%;
+  height: 18.2rem;
+  padding: 0 1.75rem;
+  background-color: #2F3130;
+  box-sizing: border-box;
+}
+.box footer h2 {
+  font-size: 1.6rem;
+  color: #939494;
+  font-weight: 600;
+  border-bottom: 0.1rem solid #3e403f;
+  line-height: 4.76rem;
+}
+.box footer .content {
+  padding: 1.75rem;
+  color: #939494;
+  font-size: 1.4rem;
+}
+.box footer .content ul {
+  list-style: none;
+  display: flex;
+}
+.box footer .content ul li {
+  flex: 1;
+  display: flex;
+}
+.box footer .content ul li img {
+  width: 2.1rem;
+  height: 2.46rem;
+  margin-right: 1.875rem;
+  margin-left: 1.1rem;
+}
+.box footer .content .text {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+.box .relation {
+  width: 100%;
+  height: 6.8rem;
+  background-color: white;
+  padding: 0 2.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.box .relation a {
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+.box .relation a:nth-of-type(1) {
+  width: 23.4rem;
+  height: 4.7rem;
+  line-height: 4.7rem;
+  text-align: center;
+  background: url(../image/SecondHandList/user.png) 5rem center no-repeat;
+  background-size: 2.8rem;
+  background-color: #FF8A00;
+  color: white;
+  border-radius: 0.5rem;
+}
+.box .relation a:nth-of-type(2) {
+  display: flex;
+  width: 6.3rem;
+  color: #666;
+  align-items: center;
+}
+.box .relation a:nth-of-type(2) span {
+  width: 2.8rem;
+  height: 2.8rem;
+  background: url(../image/SecondHandList/xin.png) center center no-repeat;
+  background-size: 2.8rem;
+}

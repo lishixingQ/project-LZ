@@ -2,3 +2,175 @@
   padding: 0;
   margin: 0;
 }
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #F5F5F5;
+}
+.box {
+  /* 头部header */
+  /* 主体 */
+  /* 底部 */
+}
+.box header {
+  width: 100%;
+  height: 5rem;
+  min-width: 300px;
+  background-color: #FF8A00;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.box header a {
+  display: inline-block;
+}
+.box header a img {
+  width: 11.7rem;
+  height: 4rem;
+}
+.box header .icon a {
+  color: #666666;
+}
+.box header .icon a img {
+  width: 2.7rem;
+  height: 3.4rem;
+  margin-left: 1rem;
+}
+.box main {
+  /* 搜索框 */
+  /* 导航栏 */
+  /* 房屋信息 */
+}
+.box main .search {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+.box main .search div {
+  width: 34rem;
+  height: 4.8rem;
+  display: flex;
+  align-items: center;
+  border: 0.1rem solid #ccc;
+  border-radius: 0.5rem;
+  background-color: white;
+}
+.box main .search div input {
+  width: 80%;
+  background-color: white;
+  outline: none;
+  border: none;
+}
+.box main .search div input::placeholder {
+  text-indent: 2em;
+}
+.box main .search div span {
+  width: 0.1rem;
+  height: 3rem;
+  background-color: #ccc;
+  margin-right: 2rem;
+}
+.box main .search div a img {
+  width: 2rem;
+  height: 2.1rem;
+}
+.box main .nav {
+  width: 100%;
+  height: 4.85rem;
+  background-color: white;
+  border-top: 0.1rem solid #ccc;
+  border-bottom: 0.1rem solid #ccc;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.box main .nav li a {
+  display: flex;
+  color: #666;
+  font-size: 2.1rem;
+  text-decoration: none;
+  align-items: center;
+  font-weight: 600;
+}
+.box main .nav li a span {
+  border-top: 0.5rem solid #ccc;
+  border-left: 0.5rem solid transparent;
+  border-right: 0.5rem solid transparent;
+  margin-left: 0.5rem;
+}
+.box main .homeInformation {
+  width: 100%;
+  padding: 0 2rem;
+  box-sizing: border-box;
+}
+.box main .homeInformation .item {
+  padding: 2.3rem 0;
+  display: flex;
+  border-bottom: 0.1rem solid #ff8a00;
+}
+.box main .homeInformation .item:last-of-type {
+  border-bottom: none;
+}
+.box main .homeInformation .item img {
+  width: 9.4rem;
+  height: 9.4rem;
+  margin-right: 2rem;
+}
+.box main .homeInformation .item .text h2 {
+  font-size: 1.6rem;
+}
+.box main .homeInformation .item .text p {
+  font-size: 1.4rem;
+}
+.box main .homeInformation .item .text p:nth-of-type(1) {
+  margin-top: 1.17rem;
+}
+.box main .homeInformation .item .text p:nth-of-type(2) {
+  color: #b0b0b0;
+}
+.box main .homeInformation .item .text p:nth-of-type(2) span {
+  color: #FF8A00;
+  font-weight: 600;
+}
+.box main .homeInformation .item .text p:nth-of-type(3) {
+  color: #b0b0b0;
+}
+.box footer {
+  width: 100%;
+  height: 18.2rem;
+  padding: 0 1.75rem;
+  background-color: #2F3130;
+  box-sizing: border-box;
+}
+.box footer h2 {
+  font-size: 1.6rem;
+  color: #939494;
+  font-weight: 600;
+  border-bottom: 0.1rem solid #3e403f;
+  line-height: 4.76rem;
+}
+.box footer .content {
+  padding: 1.75rem;
+  color: #939494;
+  font-size: 1.4rem;
+}
+.box footer .content ul {
+  list-style: none;
+  display: flex;
+}
+.box footer .content ul li {
+  flex: 1;
+  display: flex;
+}
+.box footer .content ul li img {
+  width: 2.1rem;
+  height: 2.46rem;
+  margin-right: 1.875rem;
+  margin-left: 1.1rem;
+}
+.box footer .content .text {
+  text-align: center;
+  margin-top: 1.5rem;
+}

@@ -2,3 +2,220 @@
     padding: 0;
     margin: 0;
 }
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+.box {
+
+    /* 头部header */
+    header {
+        width: 100%;
+        height: 5rem;
+        min-width: 300px;
+        background-color: #FF8A00;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        a {
+            display: inline-block;
+
+            img {
+                width: 11.7rem;
+                height: 4rem;
+            }
+        }
+
+        .icon {
+            a {
+                color: #666666;
+
+                img {
+                    width: 2.7rem;
+                    height: 3.4rem;
+                    margin-left: 1rem;
+                }
+            }
+        }
+    }
+
+    /* 主体 */
+    main {
+
+        /* 搜索框 */
+        .search {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin: 1rem 0;
+
+            div {
+                width: 34rem;
+                height: 4.8rem;
+                display: flex;
+                align-items: center;
+                border: .1rem solid #ccc;
+                border-radius: .5rem;
+                background-color: white;
+
+                input {
+                    width: 80%;
+                    background-color: white;
+                    outline: none;
+                    border: none;
+
+                    &::placeholder {
+                        text-indent: 2em;
+                    }
+                }
+
+                span {
+                    width: .1rem;
+                    height: 3rem;
+                    background-color: #ccc;
+                    margin-right: 2rem;
+                }
+
+                a {
+                    img {
+                        width: 2rem;
+                        height: 2.1rem;
+                    }
+                }
+            }
+        }
+
+        /* 导航栏 */
+        .nav {
+            width: 100%;
+            height: 4.85rem;
+            background-color: white;
+            border-top: .1rem solid #ccc;
+            border-bottom: .1rem solid #ccc;
+            list-style: none;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+            li {
+
+                a {
+                    display: flex;
+                    color: #666;
+                    font-size: 2.1rem;
+                    text-decoration: none;
+                    align-items: center;
+                    font-weight: 600;
+
+                    span {
+                        border-top: .5rem solid #ccc;
+                        border-left: .5rem solid transparent;
+                        border-right: .5rem solid transparent;
+                        margin-left: .5rem;
+                    }
+                }
+            }
+        }
+
+        /* 房屋信息 */
+        .homeInformation {
+            width: 100%;
+            padding: 0 2rem;
+            box-sizing: border-box;
+
+            .item {
+                padding: 2.3rem 0;
+                display: flex;
+                border-bottom: .1rem solid #ff8a00;
+
+                &:last-of-type {
+                    border-bottom: none;
+                }
+
+
+                img {
+                    width: 9.4rem;
+                    height: 9.4rem;
+                    margin-right: 2rem;
+                }
+
+                .text {
+                    h2 {
+                        font-size: 1.6rem;
+                    }
+
+                    p {
+                        font-size: 1.4rem;
+
+                        &:nth-of-type(1) {
+                            margin-top: 1.17rem;
+                        }
+
+                        &:nth-of-type(2) {
+                            color: #b0b0b0;
+
+                            span {
+                                color: #FF8A00;
+                                font-weight: 600;
+                            }
+                        }
+
+                        &:nth-of-type(3) {
+                            color: #b0b0b0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    /* 底部 */
+    footer {
+        width: 100%;
+        height: 18.2rem;
+        padding: 0 1.75rem;
+        background-color: #2F3130;
+        box-sizing: border-box;
+
+        h2 {
+            font-size: 1.6rem;
+            color: #939494;
+            font-weight: 600;
+            border-bottom: .1rem solid #3e403f;
+            line-height: 4.76rem;
+        }
+
+        .content {
+            padding: 1.75rem;
+            color: #939494;
+            font-size: 1.4rem;
+
+            ul {
+                list-style: none;
+                display: flex;
+
+
+                li {
+                    flex: 1;
+                    display: flex;
+
+                    img {
+                        width: 2.1rem;
+                        height: 2.46rem;
+                        margin-right: 1.875rem;
+                        margin-left: 1.1rem;
+                    }
+                }
+            }
+
+            .text {
+                text-align: center;
+                margin-top: 1.5rem;
+            }
+        }
+    }
+}

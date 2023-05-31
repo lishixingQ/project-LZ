@@ -2,3 +2,508 @@
     padding: 0;
     margin: 0;
 }
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+.box {
+
+    /* 头部header */
+    header {
+        width: 100%;
+        height: 5rem;
+        min-width: 300px;
+        background-color: #FF8A00;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        a {
+            display: inline-block;
+
+            img {
+                width: 11.7rem;
+                height: 4rem;
+            }
+        }
+
+        .icon {
+            a {
+                color: #666666;
+
+                img {
+                    width: 2.7rem;
+                    height: 3.4rem;
+                    margin-left: 1rem;
+                }
+            }
+        }
+    }
+
+    /* 主体 */
+    main {
+        width: 100%;
+
+        /* 轮播图 */
+        .swiper {
+            width: 100%;
+
+            .swiper-slide {
+                img {
+                    width: 100%;
+                    height: 21.6rem;
+                }
+            }
+
+            .swiper-pagination {
+                width: 5rem;
+                padding: .5rem 0;
+                border-radius: 1.5rem;
+                background: rgba(0, 0, 0, 0.4);
+                color: white;
+                left: 85%;
+            }
+        }
+
+        /* mainText */
+        .mainText {
+            width: 100%;
+            background-color: white;
+            padding: 23px;
+            box-sizing: border-box;
+
+            h2 {
+                font-size: 2.1rem;
+            }
+
+            p {
+                &:nth-of-type(1) {
+                    font-size: 1.6rem;
+                    background: url(../image/SecondHandList/phone.png)no-repeat right center;
+                    background-size: 1.3rem;
+                    margin: 1.1rem 0;
+
+                    span {
+                        font-weight: 600;
+                        color: #db4c3f;
+                    }
+                }
+
+                &:nth-of-type(2) {
+                    color: #b0b0b0;
+                    font-size: 1.4rem;
+                }
+
+                &:nth-of-type(3) {
+                    margin-top: 1.75rem;
+
+                    span {
+                        font-size: 1.4rem;
+                        color: #849aae;
+                        background-color: #dee9f0;
+                        padding: .6rem;
+                        margin-right: 1.4rem;
+                    }
+                }
+            }
+        }
+
+        /* 房源信息 */
+        .homeInformation {
+            width: 100%;
+            // height: 53.5rem;
+            margin-top: 1.4rem;
+            background-color: white;
+            list-style: none;
+            padding: 0 2rem;
+            box-sizing: border-box;
+
+            li {
+                width: 100%;
+                height: 6rem;
+                display: flex;
+                align-items: center;
+                box-sizing: border-box;
+                border-bottom: .1rem solid #e5e5e5;
+                font-size: 1.4rem;
+
+                div {
+                    flex: 1;
+                }
+
+                &:last-of-type {
+                    border-bottom: none;
+
+                    p {
+                        width: 100%;
+                        text-align: center;
+                        color: #999;
+                    }
+                }
+            }
+        }
+
+        /* 房源特色 */
+        .homeFeature {
+            width: 100%;
+            // height: 27rem;
+            background-color: white;
+            margin-top: 1.5rem;
+            padding: 0 2rem;
+            box-sizing: border-box;
+
+            h2 {
+                font-size: 1.875rem;
+                color: #ff9326;
+                line-height: 6rem;
+                border-bottom: .1rem solid #e5e5e5;
+            }
+
+            p {
+                &:nth-of-type(1) {
+                    padding: 1.6rem 0;
+                    font-size: 1.4rem;
+                    line-height: 3rem;
+                    border-bottom: .1rem solid #e5e5e5;
+                }
+
+                &:nth-of-type(2) {
+                    color: #999;
+                    font-size: 1.4rem;
+                    text-align: center;
+                    line-height: 5.8rem;
+                }
+            }
+        }
+
+        /* 户型房间 */
+        .homeType {
+            width: 100%;
+            // height: 33.8rem;
+            background-color: white;
+            margin-top: 1.5rem;
+            padding: 0 2rem;
+            box-sizing: border-box;
+
+            .title {
+                font-size: 2.1rem;
+                color: #ff9326;
+                line-height: 6rem;
+                border-bottom: .1rem solid #e5e5e5;
+            }
+
+            .item {
+                display: flex;
+                padding: 2.3rem 0;
+                border-bottom: .1rem solid #ff9326;
+
+                &:nth-of-type(2) {
+                    border-bottom: none;
+                }
+
+                img {
+                    width: 8.3rem;
+                    width: 8.3rem;
+                    margin-right: 2rem;
+                }
+
+                .text {
+
+                    h2 {
+                        font-size: 1.6rem;
+                    }
+
+                    p {
+                        &:nth-of-type(1) {
+                            font-size: 1.4rem;
+                            margin: 1.5rem 0;
+                        }
+
+                        &:nth-of-type(2) {
+                            span {
+                                font-size: 1.4rem;
+                                color: #849aae;
+                                background-color: #dee9f0;
+                                padding: .6rem;
+                                margin-right: 1.4rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        /* 对口学校 */
+        .school {
+            width: 100%;
+            // height: 41.65rem;
+            background-color: white;
+            margin-top: 1.5rem;
+            box-sizing: border-box;
+            padding: 0 2rem;
+
+            h2 {
+                font-size: 2.1rem;
+                line-height: 5.85rem;
+                border-bottom: .1rem solid #e5e5e5;
+            }
+
+            ul {
+                list-style: none;
+
+                li {
+                    width: 100%;
+                    height: 5.9rem;
+                    border-bottom: .1rem solid #e5e5e5;
+                    display: flex;
+                    align-items: center;
+                    font-size: 1.4rem;
+
+                    span {
+                        color: #999;
+                    }
+
+                    &:last-of-type {
+                        a {
+                            width: 100%;
+                            text-decoration: none;
+                            color: #999;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+
+        /* 位置及周边 */
+        .location {
+            width: 100%;
+            // height: 29.9rem;
+            background-color: white;
+            box-sizing: border-box;
+            margin-top: 1.5rem;
+            padding: 0 2rem;
+
+            h2 {
+                font-size: 2.1rem;
+                line-height: 5.85rem;
+                border-bottom: .1rem solid #e5e5e5;
+            }
+
+            img {
+                width: 100%;
+                margin: 2.3rem 0;
+            }
+        }
+
+        /* 推荐房源 */
+        .recommendHome {
+            width: 100%;
+            // height: 53.8rem;
+            background-color: white;
+            margin-top: 1.5rem;
+            box-sizing: border-box;
+
+            .title {
+                font-size: 2.1rem;
+                line-height: 5.85rem;
+                border-bottom: .1rem solid #e5e5e5;
+                padding-left: 2.3rem;
+            }
+
+            .item1 {
+                padding-bottom: 2rem;
+
+                &:nth-of-type(1) {
+                    .content {
+                        border-top: none;
+                    }
+                }
+
+                .content {
+                    display: flex;
+                    justify-content: space-between;
+                    margin: 0 2rem;
+                    padding-top: 2.3rem;
+                    border-top: .1rem solid #e5e5e5;
+
+                    img {
+                        width: 9.5rem;
+                        height: 9.5rem;
+                    }
+
+                    .text {
+                        h2 {
+                            width: 22rem;
+                            font-size: 2.1rem;
+                            overflow: hidden;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
+                        }
+
+                        p {
+                            &:nth-of-type(1) {
+                                padding: .58rem 0;
+                                font-size: 1.4rem;
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+
+                                span {
+                                    color: #FF8A00;
+                                    font-weight: 600;
+                                }
+                            }
+
+                            &:nth-of-type(2) {
+                                padding: .58rem 0;
+                                font-size: 1.4rem;
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                color: #8b8b8b;
+                            }
+
+                            &:nth-of-type(3) {
+                                a {
+                                    text-decoration: none;
+                                    padding: .24rem .4rem;
+                                    background-color: #F4F7F9;
+                                    color: #849aae;
+                                    font-size: 1.4rem;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .tips {
+                    margin-top: 1rem;
+                    margin-left: 2rem;
+                    background-color: #F2F2F2;
+                    padding: 1.5rem;
+                    font-size: 1.4rem;
+                    position: relative;
+
+
+                    span {
+                        display: inline-block;
+                        border-left: 1.2rem solid transparent;
+                        border-right: 1.2rem solid transparent;
+                        border-bottom: 1.2rem solid #F2F2F2;
+                        position: absolute;
+                        top: -1.1rem;
+                        left: 1.5rem;
+                    }
+                }
+            }
+
+            .more {
+                width: 100%;
+                text-align: center;
+                border-top: .1rem solid #e5e5e5;
+
+                a {
+                    width: 100%;
+                    line-height: 5.9rem;
+                    color: #666;
+                    font-size: 1.4rem;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    /* 底部 */
+    footer {
+        width: 100%;
+        height: 18.2rem;
+        padding: 0 1.75rem;
+        background-color: #2F3130;
+        box-sizing: border-box;
+
+        h2 {
+            font-size: 1.6rem;
+            color: #939494;
+            font-weight: 600;
+            border-bottom: .1rem solid #3e403f;
+            line-height: 4.76rem;
+        }
+
+        .content {
+            padding: 1.75rem;
+            color: #939494;
+            font-size: 1.4rem;
+
+            ul {
+                list-style: none;
+                display: flex;
+
+
+                li {
+                    flex: 1;
+                    display: flex;
+
+                    img {
+                        width: 2.1rem;
+                        height: 2.46rem;
+                        margin-right: 1.875rem;
+                        margin-left: 1.1rem;
+                    }
+                }
+            }
+
+            .text {
+                text-align: center;
+                margin-top: 1.5rem;
+            }
+        }
+    }
+
+    /* 联系经纪人 */
+    .relation {
+        width: 100%;
+        height: 6.8rem;
+        background-color: white;
+        padding: 0 2.3rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-sizing: border-box;
+
+        a {
+            text-decoration: none;
+            font-size: 1.4rem;
+
+            &:nth-of-type(1) {
+                width: 23.4rem;
+                height: 4.7rem;
+                line-height: 4.7rem;
+                text-align: center;
+                background: url(../image/SecondHandList/user.png)5rem center no-repeat;
+                background-size: 2.8rem;
+                background-color: #FF8A00;
+                color: white;
+                border-radius: .5rem;
+            }
+
+            &:nth-of-type(2) {
+                display: flex;
+                width: 6.3rem;
+                color: #666;
+                align-items: center;
+
+                span {
+                    width: 2.8rem;
+                    height: 2.8rem;
+                    background: url(../image/SecondHandList/xin.png)center center no-repeat;
+                    background-size: 2.8rem;
+                }
+
+            }
+        }
+    }
+}
