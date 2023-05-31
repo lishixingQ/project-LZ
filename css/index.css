@@ -197,7 +197,7 @@ header .icon a img {
   color: #ff8a00;
 }
 .hotAttention .content {
-  display: flex;
+  display: none;
 }
 .hotAttention .content ul {
   flex: 1;
@@ -210,6 +210,9 @@ header .icon a img {
 .hotAttention .content ul li a {
   color: #666666;
   font-size: 1.4rem;
+}
+.hotAttention .active1 {
+  display: flex;
 }
 /* 底部 */
 footer {
@@ -226,26 +229,26 @@ footer h2 {
   border-bottom: 0.1rem solid #3e403f;
   line-height: 4.76rem;
 }
-footer .content {
+footer .content1 {
   padding: 1.75rem;
   color: #939494;
   font-size: 1.4rem;
 }
-footer .content ul {
+footer .content1 ul {
   list-style: none;
   display: flex;
 }
-footer .content ul li {
+footer .content1 ul li {
   flex: 1;
   display: flex;
 }
-footer .content ul li img {
+footer .content1 ul li img {
   width: 2.1rem;
   height: 2.46rem;
   margin-right: 1.875rem;
   margin-left: 1.1rem;
 }
-footer .content .text {
+footer .content1 .text {
   text-align: center;
   margin-top: 1.5rem;
 }

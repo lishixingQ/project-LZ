@@ -262,7 +262,7 @@ header {
     }
 
     .content {
-        display: flex;
+        display: none;
 
         ul {
             flex: 1;
@@ -278,6 +278,10 @@ header {
                 }
             }
         }
+    }
+
+    .active1 {
+        display: flex;
     }
 
 }
@@ -300,7 +304,7 @@ footer {
         line-height: 4.76rem;
     }
 
-    .content {
+    .content1 {
         padding: 1.75rem;
         color: #939494;
         font-size: 1.4rem;
@@ -349,26 +353,30 @@ footer {
         top: 0;
         left: 0;
     }
-    .left{
+
+    .left {
         display: flex;
         justify-content: space-around;
         flex: 6;
         font-size: 1.2rem;
         color: #fff;
-        .text{
-            &>p:nth-of-type(1){
+
+        .text {
+            &>p:nth-of-type(1) {
                 height: 1.8rem;
                 font-size: 1.8rem;
             }
         }
     }
-    .right{
+
+    .right {
         background: #ff8a00;
         flex: 4;
-        line-height:5rem;
+        line-height: 5rem;
         font-size: 1.6rem;
         text-align: center;
-        a{
+
+        a {
             color: white;
         }
     }
