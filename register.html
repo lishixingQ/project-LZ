@@ -11,7 +11,51 @@
 </head>
 
 <body>
+    <!-- 头部header -->
+    <header>
 
+        <a href="index.html">
+            <img src="./image/index/logo.jpg" alt="">
+        </a>
+        <div class="icon">
+            <a href="my.html"><img src="./image/index/my.jpg" alt=""></a>
+            <a href="#"><img src="./image/index/xiazai.jpg" alt=""></a>
+        </div>
+    </header>
+    <!-- 主体部分 -->
+    <div class="main">
+        <div class="title">
+            <p><strong>首页</strong>><span>我的</span>><span>注册</span>></p>
+        </div>
+        <form action="#">
+            <ul>
+                <li><input type="text" placeholder="请输入手机号"><a href="#" id="yzm">发送验证码</a></li>
+                <li><input type="text" placeholder="请输入短信的验证码"></li>
+                <li><input type="password" placeholder="请输入新密码"></li>
+            </ul>
+            <div class="btn"><button>立即注册</button></div>
+        </form>
+    </div>
 </body>
 
 </html>
+<script>
+    var yzm = document.getElementById('yzm');
+
+    var timer;
+    var num = 60;
+    yzm.onclick = function () {
+        clearInterval(timer);
+        timer = setInterval(function () {
+
+            num--;
+            yzm.innerHTML = `${num}秒重发`;
+            if (num == 0) {
+                clearInterval(timer);
+                yzm.innerHTML = '重新获取验证码';
+                num = 60;
+            }
+        }, 1000)
+    }
+
+</script>
